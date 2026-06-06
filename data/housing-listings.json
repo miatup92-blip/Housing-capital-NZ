@@ -1,0 +1,204 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "title": "Modern Family Home in Auckland Central",
+      "type": "single_family",
+      "location": {
+        "city": "Auckland",
+        "suburb": "Ponsonby",
+        "region": "Auckland",
+        "postcode": "1021",
+        "latitude": -37.0255,
+        "longitude": 174.7550
+      },
+      "price": 1850000,
+      "currency": "NZD",
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "garage": 2,
+      "landSize": 580,
+      "buildingSize": 240,
+      "description": "Stunning modern villa with contemporary design, spacious living areas, and private courtyard garden.",
+      "features": [
+        "Modern architecture",
+        "Open plan living",
+        "Hardwood floors",
+        "Chef's kitchen",
+        "Private courtyard",
+        "Double garage"
+      ],
+      "images": [
+        "property_1_1.jpg",
+        "property_1_2.jpg",
+        "property_1_3.jpg"
+      ],
+      "agent": {
+        "name": "Sarah Johnson",
+        "phone": "+64 9 123 4567",
+        "email": "sarah@souverignrealestate.nz"
+      },
+      "dateAdded": "2026-05-15",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "title": "Riverside Cottage in Rotorua",
+      "type": "single_family",
+      "location": {
+        "city": "Rotorua",
+        "suburb": "Mayfair",
+        "region": "Bay of Plenty",
+        "postcode": "3010",
+        "latitude": -38.1368,
+        "longitude": 176.2497
+      },
+      "price": 850000,
+      "currency": "NZD",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "garage": 1,
+      "landSize": 1200,
+      "buildingSize": 180,
+      "description": "Charming cottage with geothermal heating benefits, situated on riverside location with native gardens.",
+      "features": [
+        "Geothermal heating",
+        "Riverside location",
+        "Native gardens",
+        "Quiet setting",
+        "Wood fireplace",
+        "Large land plot"
+      ],
+      "images": [
+        "property_2_1.jpg",
+        "property_2_2.jpg"
+      ],
+      "agent": {
+        "name": "Michael Brown",
+        "phone": "+64 7 345 6789",
+        "email": "michael@souverignrealestate.nz"
+      },
+      "dateAdded": "2026-05-10",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "title": "Development Land - Hamilton",
+      "type": "development",
+      "location": {
+        "city": "Hamilton",
+        "suburb": "Matangi",
+        "region": "Waikato",
+        "postcode": "3200",
+        "latitude": -37.7520,
+        "longitude": 175.2802
+      },
+      "price": 1200000,
+      "currency": "NZD",
+      "landSize": 5400,
+      "zoningInfo": "Residential - Subdivision potential",
+      "description": "Prime development site with subdivision potential. Perfect for residential development project.",
+      "features": [
+        "Subdivision approved",
+        "Flat terrain",
+        "Road access",
+        "Services available",
+        "Development potential"
+      ],
+      "images": [
+        "property_3_1.jpg"
+      ],
+      "agent": {
+        "name": "Emma Davis",
+        "phone": "+64 7 234 5678",
+        "email": "emma@souverignrealestate.nz"
+      },
+      "dateAdded": "2026-05-01",
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "title": "Contemporary Home in Wellington",
+      "type": "single_family",
+      "location": {
+        "city": "Wellington",
+        "suburb": "Kelburn",
+        "region": "Wellington",
+        "postcode": "6012",
+        "latitude": -41.2865,
+        "longitude": 174.7762
+      },
+      "price": 1650000,
+      "currency": "NZD",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "garage": 2,
+      "landSize": 420,
+      "buildingSize": 200,
+      "description": "Sophisticated contemporary home with stunning city and harbour views.",
+      "features": [
+        "City views",
+        "Harbour views",
+        "Modern finishes",
+        "Balcony",
+        "Secure parking",
+        "Close to amenities"
+      ],
+      "images": [
+        "property_4_1.jpg",
+        "property_4_2.jpg",
+        "property_4_3.jpg"
+      ],
+      "agent": {
+        "name": "James Wilson",
+        "phone": "+64 4 567 8901",
+        "email": "james@souverignrealestate.nz"
+      },
+      "dateAdded": "2026-04-28",
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "title": "Country Estate in Tauranga",
+      "type": "single_family",
+      "location": {
+        "city": "Tauranga",
+        "suburb": "Athenree",
+        "region": "Bay of Plenty",
+        "postcode": "3118",
+        "latitude": -37.7788,
+        "longitude": 176.3333
+      },
+      "price": 2100000,
+      "currency": "NZD",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "garage": 3,
+      "landSize": 3500,
+      "buildingSize": 380,
+      "description": "Luxurious country estate on sprawling grounds with panoramic views and premium amenities.",
+      "features": [
+        "Luxury finishes",
+        "Panoramic views",
+        "Swimming pool",
+        "Tennis court",
+        "Multiple garages",
+        "Guest accommodation",
+        "Established gardens"
+      ],
+      "images": [
+        "property_5_1.jpg",
+        "property_5_2.jpg",
+        "property_5_3.jpg",
+        "property_5_4.jpg"
+      ],
+      "agent": {
+        "name": "Sophie Anderson",
+        "phone": "+64 7 456 7890",
+        "email": "sophie@souverignrealestate.nz"
+      },
+      "dateAdded": "2026-05-08",
+      "status": "available"
+    }
+  ]
+}
