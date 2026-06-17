@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Capital NZ - Luxury Homes & Timezone Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Housing Capital NZ</h1>
+                <p class="tagline">Premium Real Estate & Global Time</p>
+            </div>
+            <nav class="nav">
+                <a href="#homes" class="nav-link">Properties</a>
+                <a href="#clock" class="nav-link">World Clock</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main">
+        <!-- Global Time Clock Section -->
+        <section id="clock" class="clock-section">
+            <div class="container">
+                <h2>Global Time Clock</h2>
+                <p class="section-subtitle">Track time across different locations</p>
+                
+                <div class="theme-switcher">
+                    <button id="theme-light" class="theme-btn active" data-theme="light">☀️ Light</button>
+                    <button id="theme-dark" class="theme-btn" data-theme="dark">🌙 Dark</button>
+                    <button id="theme-ocean" class="theme-btn" data-theme="ocean">🌊 Ocean</button>
+                </div>
+
+                <div class="timezone-grid" id="timezone-grid">
+                    <!-- Timezones will be dynamically inserted here -->
+                </div>
+
+                <div class="clock-controls">
+                    <button id="add-timezone-btn" class="btn btn-primary">+ Add Time Zone</button>
+                    <button id="toggle-format-btn" class="btn btn-secondary">Toggle 24H/12H</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Luxury Homes Section -->
+        <section id="homes" class="homes-section">
+            <div class="container">
+                <h2>Luxury Modern Homes</h2>
+                <p class="section-subtitle">Exquisite 6-Bedroom Properties with Premium Amenities</p>
+                
+                <div class="homes-grid" id="homes-grid">
+                    <!-- Homes will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p class="section-subtitle">Interested in any of our premium properties?</p>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for adding timezone -->
+    <div id="timezone-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Select Time Zone</h2>
+            <input 
+                type="text" 
+                id="timezone-search" 
+                placeholder="Search timezone..."
+                class="search-input"
+            >
+            <div id="timezone-list" class="timezone-list"></div>
+            <div class="modal-actions">
+                <button id="modal-cancel" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Property Detail Modal -->
+    <div id="property-modal" class="modal hidden">
+        <div class="modal-content property-modal">
+            <button class="close-btn">×</button>
+            <div class="property-detail" id="property-detail">
+                <!-- Property details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Housing Capital NZ. All rights reserved.</p>
+            <p>Luxury Real Estate | Global Connections</p>
+        </div>
+    </footer>
+
+    <script src="modern-homes-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
